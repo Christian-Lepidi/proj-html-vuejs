@@ -5,9 +5,12 @@ export default {
   data() {
     return {};
   },
+  components: { AppDescription },
 };
 </script>
 
-<template></template>
+<template>
+  <app-description />
+</template>
 
 <style lang="scss" scoped></style>
