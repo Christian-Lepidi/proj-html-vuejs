@@ -1,6 +1,4 @@
 <script>
-import AppDescription from "./AppDescription.vue";
-
 export default {
   data() {
     return {};
