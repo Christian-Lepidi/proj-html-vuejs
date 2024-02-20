@@ -97,6 +97,10 @@ export default {
         color: #3d3d3d;
         background-color: #39ffbf;
       }
+
+      .info-btn:hover {
+        background-color: #f00e2e;
+      }
     }
   }
 

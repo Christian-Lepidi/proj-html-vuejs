@@ -151,6 +151,10 @@ export default {
         padding: 15px 30px;
         background-color: #f81d39;
       }
+
+      .started-link:hover {
+        background-color: #3d3d3d;
+      }
     }
   }
 
