@@ -25,10 +25,17 @@ export default {
     </div>
     <div class="card-container">
       <div class="card">
-        <img src="../assets/img/" alt="" />
+        <img src="../assets/img/DRY-1-790x592.jpg" alt="" />
       </div>
-      <div class="card"></div>
-      <div class="card"></div>
+      <div class="card">
+        <img
+          src="../assets/img/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg"
+          alt=""
+        />
+      </div>
+      <div class="card">
+        <img src="../assets/img/z1el4c4p-790x592.jpg" alt="" />
+      </div>
     </div>
   </section>
 </template>
@@ -92,14 +99,12 @@ export default {
     width: 80%;
     height: 350px;
     margin: auto;
-    background-color: orange;
     display: flex;
     gap: 10px;
 
     .card {
       height: 350px;
       width: calc(100% / 3 - 10px);
-      background-color: aquamarine;
     }
   }
 }
