@@ -8,10 +8,63 @@ export default {
 
 <template>
   <section class="description">
-    <div class="consultans"></div>
+    <div class="consultans">
+      <span><strong>OUR CONSULTANS CAN HELP YOU</strong></span>
+      <div class="line"></div>
+    </div>
     <div class="actions">
-      <div class="column left"></div>
-      <div class="column right"></div>
+      <div class="column left">
+        <div class="part">
+          <div>
+            <i class="fas fa-chart-line fa-2x icons"></i>
+            <span><strong>STATISTICAL CONSULTING</strong></span>
+            <div>
+              <p>
+                When,while lovely valley teams with vapour around meand eridian
+                sun strikes the upper impenetrable foliage of my trees,
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="part">
+          <div>
+            <i class="far fa-folder fa-2x icons"></i>
+            <span><strong>BANKING CONSULTING</strong></span>
+            <div>
+              <p>
+                When,while lovely valley teams with vapour around meand eridian
+                sun strikes the upper impenetrable foliage of my trees,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column right">
+        <div class="part">
+          <div>
+            <i class="fas fa-bullhorn fa-2x icons"></i>
+            <span><strong>DIGITAL CONSULTING</strong></span>
+            <div>
+              <p>
+                When,while lovely valley teams with vapour around meand eridian
+                sun strikes the upper impenetrable foliage of my trees,
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="part">
+          <div>
+            <i class="fas fa-bullseye fa-2x icons"></i>
+            <span><strong>ENTERPRISE CONSULTING</strong></span>
+            <div>
+              <p>
+                When,while lovely valley teams with vapour around meand eridian
+                sun strikes the upper impenetrable foliage of my trees,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -25,7 +78,15 @@ export default {
     width: 70%;
     height: 90px;
     margin-left: 30%;
-    background-color: coral;
+    display: flex;
+    align-items: end;
+    gap: 39px;
+  }
+
+  .line {
+    height: 2px;
+    width: 72%;
+    background-color: #39ffbf;
   }
 
   .actions {
@@ -37,12 +98,23 @@ export default {
     .column {
       width: 50%;
       height: 400px;
-    }
-    .left {
-      background-color: orange;
-    }
-    .right {
-      background-color: aquamarine;
+      display: flex;
+      flex-direction: column;
+
+      .part {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .icons {
+        color: white;
+        background-color: #f81d39;
+        padding: 10px;
+        border-radius: 50%;
+      }
     }
   }
 }
