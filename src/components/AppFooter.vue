@@ -47,8 +47,21 @@ export default {
     </div>
     <div class="line"></div>
     <div class="last-contents-box">
-      <div class="conditions"></div>
-      <div class="copyright-chat-box"></div>
+      <div class="conditions">
+        <div class="cond-texts">Terms of use</div>
+        <div class="cond-texts">Privacy Environmental Policy</div>
+      </div>
+      <div class="copyright-chat-box">
+        <span class="copy"
+          >Copyright 2020 Phlox Consulting. All rights reserved</span
+        >
+        <div>
+          <i class="fas fa-arrow-up"></i>
+        </div>
+        <div>
+          <i class="far fa-comment"></i>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -115,9 +128,14 @@ export default {
         margin: 0 10px;
       }
 
+      .link:hover {
+        color: white;
+      }
+
       .fab {
         color: white;
         margin: 0 20px;
+        cursor: pointer;
       }
     }
   }
@@ -133,20 +151,48 @@ export default {
     width: 90%;
     height: 90px;
     margin-left: 10%;
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
 
     .conditions {
       width: 15%;
       height: 90px;
-      background-color: lightcoral;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .cond-texts {
+        color: lightgray;
+      }
     }
 
     .copyright-chat-box {
-      width: 30%;
+      width: 32%;
       height: 90px;
-      background-color: yellow;
+      display: flex;
+      align-items: center;
+
+      .copy {
+        color: lightgray;
+      }
+
+      .fa-arrow-up {
+        color: #1f1e38;
+        background-color: white;
+        margin-left: 10px;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .fa-comment {
+        color: white;
+        background-color: #1bb0ce;
+        margin-left: 10px;
+        padding: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
     }
   }
 }

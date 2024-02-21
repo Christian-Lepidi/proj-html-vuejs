@@ -114,6 +114,7 @@ export default {
         background-color: #f81d39;
         padding: 10px;
         border-radius: 50%;
+        margin-right: 10px;
       }
     }
   }

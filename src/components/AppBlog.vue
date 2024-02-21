@@ -109,7 +109,6 @@ export default {
     .card {
       width: calc(100% / 2 - 10px);
       height: 400px;
-      background-color: aquamarine;
       position: relative;
 
       .news {
@@ -138,6 +137,10 @@ export default {
           color: #3d3d3d;
           margin-top: 15px;
         }
+      }
+
+      .news:hover {
+        background-color: #39ffbf;
       }
     }
     .left {
